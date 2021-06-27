@@ -1,0 +1,7 @@
+const InnerWrapper = styled.div`
+    width: 1200px;
+    background: ${Colors.white};
+    ${media.desktop`
+        background: ${Colors.black};
+    `}
+`;
